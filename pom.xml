@@ -58,6 +58,20 @@
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-undertow-starter</artifactId>
         </dependency>
+
+        <!-- lombok dependency -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.6.2</version>
+        </dependency>
     </dependencies>
     <build>
         <pluginManagement>
